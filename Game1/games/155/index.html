@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Beautiful florits</title><meta name="x-share-desc" content="考验你眼力的时候到了"><meta name="screen-orientation" content="portrait"><meta name="x-key" content="4630b0e0880dfb7b43704f9f1116839f"><meta name="x-id" content="3700">
+<style>
+        html {width:100%; height:100%}
+        body {margin:0; padding:0; width: 100%; height: 100%; background-image: url(bg.jpg); background-repeat: no-repeat; background-color: #000;}
+        canvas {margin: 0; padding: 0; top:0; position: fixed; z-index: 0;}
+        #game {width:100%; height:100%}
+    </style>
+</head>
+<body>
+<div id="game">
+<script src="machine4fun.min.js"></script>
+</div>
+<style>
+#A4Gwrap, #a4gpreloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+</style>
+<script type="text/javascript">
+window.lggdusr = false;
+window.showA4GVideoTag = function showA4GVideoTag() {
+	function optionalRemove(tagId) {
+		var el = document.getElementById(tagId);
+
+		if (el && el.parentNode) {
+			el.parentNode.removeChild(el);
+		}
+		optionalRemove('A4Gwrap');
+	optionalRemove('a4gpreloader');
+	}
+//    var scriptEl = document.createElement('SCRIPT'),
+//        antiCache = Math.round(Math.random() * 100000);
+//
+//	optionalRemove('A4Gwrap');
+//	optionalRemove('a4gpreloader');
+//
+//    scriptEl.async = true;
+//    scriptEl.type = 'text/javascript';
+//    scriptEl.src = '//video.a4g.com/www/delivery/video.php?zoneid=61108&width=874&adtype=video_image_text&height=576&siteurl=http://hidden4fun.com&wrapper=game&skipoffset=10&autoplay=1&l=' + antiCache;
+//
+//    (document.body || document.getElementsByTagName('body')[0]).appendChild(scriptEl);
+}
+
+showA4GVideoTag();
+</script>
+</body>
