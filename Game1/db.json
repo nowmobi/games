@@ -803,15 +803,6 @@
     "category": "girl"
   },
   {
-    "id": 123,
-    "name": "QQ Bubble Dragon",
-    "image": "./icons/123.jpg",
-    "description": "Control a cute QQ bubble dragon in this magical girls game! Blow bubbles and create beautiful bubble art.",
-    "rating": 4,
-    "downloads": "20.3K",
-    "category": "girl"
-  },
-  {
     "id": 164,
     "name": "Gravity fall",
     "image": "./icons/164.jpg",
